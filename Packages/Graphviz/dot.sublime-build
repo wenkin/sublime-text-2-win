@@ -1,0 +1,14 @@
+{
+    "cmd": ["dot","-Tpng","$file","-o","$file.png"],
+    "file_regex": "\\w+: (.+):([0-9]+): ()(.*)$",
+    "selector" : "source.dot",
+	
+	"variants":
+	[
+		{
+			"name": "Run",
+			"cmd": ["D:\\Program Files (x86)\\Google\\Picasa3\\PicasaPhotoViewer.exe", "$file.png"]
+		}
+	]
+	
+}
