@@ -1,0 +1,6 @@
+[submodule "Packages/SublimeCodeIntel"]
+	path = Packages/SublimeCodeIntel
+	url = https://github.com/SublimeCodeIntel/SublimeCodeIntel.git
+[submodule "Packages/Ceedling"]
+	path = Packages/Ceedling
+	url = https://github.com/SublimeText/Ceedling.git
